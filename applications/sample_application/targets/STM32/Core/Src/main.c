@@ -129,6 +129,7 @@ int main(void)
   MX_USART3_UART_Init();
   MX_USB_OTG_FS_USB_Init();
   /* USER CODE BEGIN 2 */
+  /* test version */
   volatile static uint32_t major,minor,patch;
   volatile static char git_hash[32];
   major = VERSION_MAJOR;
