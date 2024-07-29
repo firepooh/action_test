@@ -129,7 +129,11 @@ int main(void)
   MX_USART3_UART_Init();
   MX_USB_OTG_FS_USB_Init();
   /* USER CODE BEGIN 2 */
-
+  volatile static uint32_t major,minor,patch;
+  
+  major = VERSION_MAJOR;
+  minor = VERSION_MINOR;
+  patch = VERSION_BUGFIX;
   /* USER CODE END 2 */
 
   /* Infinite loop */
