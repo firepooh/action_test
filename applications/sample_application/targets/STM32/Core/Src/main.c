@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <string.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -130,10 +130,11 @@ int main(void)
   MX_USB_OTG_FS_USB_Init();
   /* USER CODE BEGIN 2 */
   volatile static uint32_t major,minor,patch;
-  
+  volatile static char git_hash[32];
   major = VERSION_MAJOR;
   minor = VERSION_MINOR;
   patch = VERSION_BUGFIX;
+  strcpy(git_hash,VERSION_S_GIT_HASH);
   /* USER CODE END 2 */
 
   /* Infinite loop */
