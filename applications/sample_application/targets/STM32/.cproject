@@ -44,7 +44,7 @@
 									<listOptionValue builtIn="false" value="VERSION_MAJOR=$(MAKE_VERSION_MAJOR)"/>
 									<listOptionValue builtIn="false" value="VERSION_MINOR=$(MAKE_VERSION_MINOR)"/>
 									<listOptionValue builtIn="false" value="VERSION_BUGFIX=$(MAKE_VERSION_BUGFIX)"/>
-									<listOptionValue builtIn="false" value="VERSION_S_GIT_HASH=$(MAKE_SHORT_GIT_HASH)"/>
+									<listOptionValue builtIn="false" value="VERSION_S_GIT_HASH=&quot;$(MAKE_SHORT_GIT_HASH)&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths.145624886" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="../Core/Inc"/>
@@ -124,7 +124,7 @@
 									<listOptionValue builtIn="false" value="VERSION_MAJOR=$(MAKE_VERSION_MAJOR)"/>
 									<listOptionValue builtIn="false" value="VERSION_MINOR=$(MAKE_VERSION_MINOR)"/>
 									<listOptionValue builtIn="false" value="VERSION_BUGFIX=$(MAKE_VERSION_BUGFIX)"/>
-									<listOptionValue builtIn="false" value="VERSION_S_GIT_HASH=$(MAKE_SHORT_GIT_HASH)"/>
+									<listOptionValue builtIn="false" value="VERSION_S_GIT_HASH=&quot;$(MAKE_SHORT_GIT_HASH)&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths.1221564202" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="../Core/Inc"/>
